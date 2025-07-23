@@ -49,7 +49,7 @@
 }
 
 .social-link:hover {
-  background: #2563eb;
+  background: #e91e63;
 }
 
 .footer-links {
@@ -68,7 +68,7 @@
 }
 
 .footer-links a:hover {
-  color: #2563eb;
+  color: #e91e63;
 }
 
 .contact-info p {
@@ -80,7 +80,7 @@
 
 .contact-info i {
   margin-right: 0.5rem;
-  color: #2563eb;
+  color: #e91e63;
   width: 16px;
 }
 

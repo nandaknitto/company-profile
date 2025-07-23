@@ -37,10 +37,10 @@ const Contacts = () => {
       {/* Hero Section */}
       <section className="hero">
         <div className="container">
-          <h1>Hubungi Kami</h1>
+          <h1>Hubungi PlastikMart</h1>
           <p>
             Kami siap membantu Anda. Hubungi kami untuk mendapatkan 
-            informasi lebih lanjut atau konsultasi gratis.
+            informasi lebih lanjut tentang produk plastik kami.
           </p>
         </div>
       </section>
@@ -70,7 +70,7 @@ const Contacts = () => {
                   <i className="fas fa-envelope"></i>
                   <div>
                     <h3>Email</h3>
-                    <p>info@companyprofile.com<br />sales@companyprofile.com</p>
+                    <p>info@plastikmart.com<br />sales@plastikmart.com</p>
                   </div>
                 </div>
                 <div className="contact-item">

@@ -8,10 +8,10 @@ const Footer = () => {
       <div className="container">
         <div className="footer-content">
           <div className="footer-section">
-            <h3>Company Profile</h3>
+            <h3>PlastikMart</h3>
             <p>
-              Perusahaan terkemuka yang berkomitmen untuk memberikan layanan terbaik 
-              dan produk berkualitas tinggi kepada pelanggan kami.
+              Distributor plastik terpercaya yang berkomitmen untuk memberikan 
+              produk plastik berkualitas tinggi dengan harga terbaik.
             </p>
             <div className="social-links">
               <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="social-link">
@@ -43,10 +43,10 @@ const Footer = () => {
           <div className="footer-section">
             <h4>Produk</h4>
             <ul className="footer-links">
-              <li><a href="/products">Produk A</a></li>
-              <li><a href="/products">Produk B</a></li>
-              <li><a href="/products">Produk C</a></li>
-              <li><a href="/products">Produk D</a></li>
+              <li><a href="/products">Wadah Plastik</a></li>
+              <li><a href="/products">Kantong Plastik</a></li>
+              <li><a href="/products">Peralatan Dapur</a></li>
+              <li><a href="/products">Botol Plastik</a></li>
             </ul>
           </div>
 
@@ -63,14 +63,14 @@ const Footer = () => {
               </p>
               <p>
                 <i className="fas fa-envelope"></i>
-                info@companyprofile.com
+                info@plastikmart.com
               </p>
             </div>
           </div>
         </div>
 
         <div className="footer-bottom">
-          <p>&copy; 2024 Company Profile. All rights reserved.</p>
+          <p>&copy; 2024 PlastikMart. All rights reserved.</p>
         </div>
       </div>
     </footer>

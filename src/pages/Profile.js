@@ -6,10 +6,10 @@ const Profile = () => {
       {/* Hero Section */}
       <section className="hero">
         <div className="container">
-          <h1>Profil Perusahaan</h1>
+          <h1>Profil PlastikMart</h1>
           <p>
-            Mengenal lebih dekat dengan Company Profile, perusahaan terkemuka 
-            yang berkomitmen untuk memberikan layanan terbaik.
+            Mengenal lebih dekat dengan PlastikMart, distributor plastik terkemuka 
+            yang berkomitmen untuk memberikan produk plastik berkualitas terbaik.
           </p>
         </div>
       </section>
@@ -19,22 +19,22 @@ const Profile = () => {
         <div className="container">
           <div className="about-content">
             <div className="about-text">
-              <h2 className="section-title">Tentang Kami</h2>
+              <h2 className="section-title">Tentang PlastikMart</h2>
               <p>
-                Company Profile didirikan pada tahun 2010 dengan visi untuk menjadi 
-                perusahaan terdepan dalam industri yang kami geluti. Selama lebih dari 
-                10 tahun, kami telah melayani ribuan pelanggan dengan berbagai 
-                kebutuhan bisnis mereka.
+                PlastikMart didirikan pada tahun 2015 dengan visi untuk menjadi 
+                distributor plastik terdepan di Indonesia. Selama lebih dari 
+                8 tahun, kami telah melayani ribuan pelanggan dengan berbagai 
+                kebutuhan plastik rumah tangga dan bisnis.
               </p>
               <p>
-                Kami berkomitmen untuk memberikan solusi terbaik dengan mengutamakan 
-                kualitas, inovasi, dan kepuasan pelanggan. Tim kami terdiri dari 
-                para profesional yang berpengalaman dan terus mengembangkan diri 
-                untuk memberikan layanan terbaik.
+                Kami berkomitmen untuk memberikan produk plastik berkualitas dengan 
+                mengutamakan keamanan, ketahanan, dan kepuasan pelanggan. Tim kami 
+                terdiri dari para profesional yang berpengalaman dalam industri plastik 
+                dan terus mengembangkan produk untuk memenuhi kebutuhan pelanggan.
               </p>
             </div>
             <div className="about-image">
-              <i className="fas fa-chart-line"></i>
+              <i className="fas fa-shopping-bag"></i>
             </div>
           </div>
         </div>
@@ -49,8 +49,8 @@ const Profile = () => {
               <i className="fas fa-eye"></i>
               <h3>Visi</h3>
               <p>
-                Menjadi perusahaan terdepan yang inovatif dan terpercaya dalam 
-                memberikan solusi terbaik untuk kebutuhan bisnis pelanggan kami, 
+                Menjadi distributor plastik terdepan yang inovatif dan terpercaya dalam 
+                menyediakan produk plastik berkualitas untuk kebutuhan rumah tangga dan bisnis, 
                 dengan fokus pada kualitas, keberlanjutan, dan pertumbuhan yang 
                 berkelanjutan.
               </p>
@@ -59,8 +59,8 @@ const Profile = () => {
               <i className="fas fa-bullseye"></i>
               <h3>Misi</h3>
               <p>
-                Memberikan layanan dan produk berkualitas tinggi dengan harga 
-                yang kompetitif, mengembangkan inovasi berkelanjutan, dan 
+                Memberikan produk plastik berkualitas tinggi dengan harga 
+                yang kompetitif, mengembangkan produk plastik yang ramah lingkungan, dan 
                 membangun hubungan jangka panjang dengan pelanggan berdasarkan 
                 kepercayaan dan kepuasan.
               </p>

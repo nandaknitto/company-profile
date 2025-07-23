@@ -19,8 +19,8 @@ const Navbar = () => {
       <div className="container">
         <div className="navbar-brand">
           <Link to="/" className="logo">
-            <i className="fas fa-building"></i>
-            <span>Company Profile</span>
+            <i className="fas fa-shopping-bag"></i>
+            <span>PlastikMart</span>
           </Link>
         </div>
 

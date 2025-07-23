@@ -7,86 +7,86 @@ const Karir = () => {
   const jobListings = [
     {
       id: 1,
-      title: "Senior Software Developer",
+      title: "Sales Executive Plastik",
       location: "Jakarta Pusat",
       type: "Full-time",
-      experience: "3-5 tahun",
-      description: "Kami mencari developer berpengalaman untuk bergabung dengan tim pengembangan kami. Bertanggung jawab untuk mengembangkan aplikasi web dan mobile yang inovatif.",
+      experience: "1-3 tahun",
+      description: "Kami mencari sales executive berpengalaman untuk bergabung dengan tim penjualan kami. Bertanggung jawab untuk menjual produk plastik ke pelanggan retail dan bisnis.",
       requirements: [
-        "Pengalaman 3-5 tahun dalam pengembangan web",
-        "Mahir dalam React, Node.js, dan database",
-        "Memahami konsep REST API dan microservices",
-        "Kemampuan problem solving yang baik",
-        "Berkomunikasi dalam bahasa Inggris"
+        "Pengalaman 1-3 tahun dalam sales retail",
+        "Memahami produk plastik dan kemasan",
+        "Kemampuan komunikasi yang baik",
+        "Target oriented dan self-motivated",
+        "Memiliki kendaraan pribadi"
       ],
       responsibilities: [
-        "Mengembangkan aplikasi web dan mobile",
-        "Berkolaborasi dengan tim design dan product",
-        "Melakukan code review dan testing",
-        "Mentoring junior developers"
+        "Menjual produk plastik ke pelanggan",
+        "Mengembangkan relasi dengan pelanggan",
+        "Mencapai target penjualan bulanan",
+        "Memberikan layanan pelanggan terbaik"
       ]
     },
     {
       id: 2,
-      title: "UI/UX Designer",
+      title: "Warehouse Staff",
       location: "Jakarta Pusat",
       type: "Full-time",
-      experience: "2-4 tahun",
-      description: "Bergabung dengan tim design kami untuk menciptakan pengalaman pengguna yang luar biasa melalui desain yang inovatif dan user-friendly.",
+      experience: "1-2 tahun",
+      description: "Bergabung dengan tim warehouse kami untuk mengelola stok produk plastik dan memastikan pengiriman yang tepat waktu.",
       requirements: [
-        "Pengalaman 2-4 tahun dalam UI/UX design",
-        "Mahir dalam Figma, Adobe Creative Suite",
-        "Memahami prinsip design system",
-        "Portfolio yang menunjukkan kemampuan design",
-        "Kemampuan prototyping dan user research"
+        "Pengalaman 1-2 tahun di warehouse",
+        "Fisik sehat dan kuat",
+        "Memahami sistem inventory",
+        "Teliti dan bertanggung jawab",
+        "Bersedia kerja shift"
       ],
       responsibilities: [
-        "Mendesain interface yang user-friendly",
-        "Melakukan user research dan testing",
-        "Berkolaborasi dengan tim development",
-        "Mengembangkan design system"
+        "Mengelola stok produk plastik",
+        "Menyiapkan pesanan untuk pengiriman",
+        "Melakukan quality control",
+        "Menjaga kebersihan warehouse"
       ]
     },
     {
       id: 3,
-      title: "Product Manager",
+      title: "Customer Service",
       location: "Jakarta Pusat",
       type: "Full-time",
-      experience: "4-6 tahun",
-      description: "Memimpin pengembangan produk dari ide hingga peluncuran. Bertanggung jawab untuk strategi produk dan roadmap pengembangan.",
+      experience: "1-2 tahun",
+      description: "Memberikan layanan pelanggan terbaik untuk menjawab pertanyaan dan menangani keluhan pelanggan tentang produk plastik kami.",
       requirements: [
-        "Pengalaman 4-6 tahun sebagai Product Manager",
-        "Memahami metodologi Agile dan Scrum",
-        "Kemampuan analisis data dan market research",
-        "Kemampuan komunikasi dan leadership",
-        "Background technical atau business"
+        "Pengalaman 1-2 tahun sebagai customer service",
+        "Kemampuan komunikasi yang baik",
+        "Sabar dan ramah",
+        "Memahami produk plastik",
+        "Bersedia kerja shift"
       ],
       responsibilities: [
-        "Mengembangkan strategi produk",
-        "Mengelola roadmap dan backlog",
-        "Berkolaborasi dengan stakeholders",
-        "Menganalisis metrik dan feedback"
+        "Menjawab pertanyaan pelanggan",
+        "Menangani keluhan dan komplain",
+        "Memberikan informasi produk",
+        "Mencatat data pelanggan"
       ]
     },
     {
       id: 4,
-      title: "Sales Executive",
+      title: "Marketing Staff",
       location: "Jakarta Pusat",
       type: "Full-time",
-      experience: "1-3 tahun",
-      description: "Bergabung dengan tim sales kami untuk membantu pertumbuhan bisnis melalui penjualan produk dan layanan kami.",
+      experience: "2-3 tahun",
+      description: "Mengembangkan strategi marketing untuk produk plastik kami dan meningkatkan brand awareness PlastikMart.",
       requirements: [
-        "Pengalaman 1-3 tahun dalam sales",
-        "Kemampuan komunikasi yang baik",
-        "Target oriented dan self-motivated",
-        "Memahami produk teknologi",
-        "Kemampuan presentasi yang baik"
+        "Pengalaman 2-3 tahun dalam marketing",
+        "Memahami digital marketing",
+        "Kreatif dan inovatif",
+        "Kemampuan analisis market",
+        "Mahir dalam social media"
       ],
       responsibilities: [
-        "Mencari dan mengembangkan leads",
-        "Melakukan presentasi produk",
-        "Mengelola pipeline sales",
-        "Mencapai target penjualan"
+        "Mengembangkan kampanye marketing",
+        "Mengelola social media",
+        "Menganalisis trend pasar",
+        "Meningkatkan brand awareness"
       ]
     }
   ];

@@ -4,45 +4,45 @@ const Products = () => {
   const products = [
     {
       id: 1,
-      name: "Produk A",
-      description: "Produk unggulan kami yang telah terbukti kualitasnya dan banyak digunakan oleh pelanggan setia kami. Dirancang dengan teknologi terkini untuk memberikan performa optimal.",
-      features: ["Kualitas Terjamin", "Garansi 1 Tahun", "Support 24/7", "Dokumentasi Lengkap"],
-      icon: "fas fa-cube"
+      name: "Wadah Plastik Premium",
+      description: "Wadah plastik berkualitas tinggi untuk penyimpanan makanan, barang, dan kebutuhan rumah tangga. Tersedia dalam berbagai ukuran dan warna.",
+      features: ["Food Grade", "Tahan Panas", "Tidak Mudah Pecah", "Berbagai Ukuran"],
+      icon: "fas fa-box"
     },
     {
       id: 2,
-      name: "Produk B",
-      description: "Solusi inovatif yang dirancang khusus untuk memenuhi kebutuhan bisnis modern dengan teknologi terkini. Meningkatkan efisiensi dan produktivitas bisnis Anda.",
-      features: ["Teknologi Terkini", "Skalabilitas Tinggi", "Integrasi Mudah", "Analytics Dashboard"],
-      icon: "fas fa-cogs"
+      name: "Kantong Plastik",
+      description: "Kantong plastik berbagai ukuran dan ketebalan untuk kebutuhan belanja, sampah, dan kemasan. Ramah lingkungan dan berkualitas.",
+      features: ["Berbagai Ukuran", "Ketebalan Variatif", "Ramah Lingkungan", "Harga Terjangkau"],
+      icon: "fas fa-shopping-bag"
     },
     {
       id: 3,
-      name: "Produk C",
-      description: "Produk yang mengutamakan efisiensi dan efektivitas dalam membantu meningkatkan produktivitas bisnis Anda. Cocok untuk berbagai skala perusahaan.",
-      features: ["Efisien", "User-Friendly", "Customizable", "Cloud-Based"],
-      icon: "fas fa-tools"
+      name: "Peralatan Dapur Plastik",
+      description: "Peralatan dapur plastik berkualitas untuk kebutuhan memasak, menyimpan, dan menyajikan makanan. Aman untuk makanan.",
+      features: ["Food Safe", "Tahan Panas", "Mudah Dibersihkan", "Berbagai Model"],
+      icon: "fas fa-utensils"
     },
     {
       id: 4,
-      name: "Produk D",
-      description: "Solusi komprehensif yang menggabungkan berbagai fitur canggih untuk memberikan pengalaman terbaik bagi pengguna dan pelanggan Anda.",
-      features: ["Fitur Lengkap", "Mobile Ready", "API Integration", "Multi-Platform"],
-      icon: "fas fa-rocket"
+      name: "Botol Plastik",
+      description: "Botol plastik berkualitas untuk minuman, penyimpanan cairan, dan kebutuhan lainnya. Tersedia dalam berbagai kapasitas.",
+      features: ["Berbagai Kapasitas", "Tahan Bocor", "Mudah Dibawa", "Harga Kompetitif"],
+      icon: "fas fa-wine-bottle"
     },
     {
       id: 5,
-      name: "Produk E",
-      description: "Produk yang dirancang dengan fokus pada keamanan dan privasi data. Memberikan perlindungan maksimal untuk aset digital perusahaan Anda.",
-      features: ["Keamanan Tinggi", "Enkripsi End-to-End", "Compliance Ready", "Audit Trail"],
-      icon: "fas fa-shield-alt"
+      name: "Kemasan Plastik",
+      description: "Kemasan plastik untuk berbagai kebutuhan bisnis dan rumah tangga. Berkualitas tinggi dan tahan lama.",
+      features: ["Kualitas Premium", "Tahan Lama", "Berbagai Ukuran", "Custom Design"],
+      icon: "fas fa-box-open"
     },
     {
       id: 6,
-      name: "Produk F",
-      description: "Platform yang memungkinkan kolaborasi tim yang efektif dan komunikasi yang lancar. Meningkatkan produktivitas tim kerja Anda.",
-      features: ["Real-time Collaboration", "File Sharing", "Video Conference", "Task Management"],
-      icon: "fas fa-users"
+      name: "Aksesoris Plastik",
+      description: "Aksesoris plastik untuk kebutuhan rumah tangga dan bisnis. Praktis dan multifungsi.",
+      features: ["Multifungsi", "Praktis", "Harga Terjangkau", "Berbagai Model"],
+      icon: "fas fa-puzzle-piece"
     }
   ];
 
@@ -51,9 +51,9 @@ const Products = () => {
       {/* Hero Section */}
       <section className="hero">
         <div className="container">
-          <h1>Produk Kami</h1>
+          <h1>Produk Plastik PlastikMart</h1>
           <p>
-            Temukan berbagai produk berkualitas tinggi yang telah dipercaya 
+            Temukan berbagai produk plastik berkualitas tinggi yang telah dipercaya 
             oleh ribuan pelanggan di seluruh Indonesia.
           </p>
         </div>
@@ -62,10 +62,10 @@ const Products = () => {
       {/* Products Grid */}
       <section className="section">
         <div className="container">
-          <h2 className="section-title">Produk Unggulan</h2>
+          <h2 className="section-title">Produk Plastik Unggulan</h2>
           <p className="section-subtitle">
-            Kami menawarkan berbagai produk yang dirancang untuk memenuhi 
-            kebutuhan bisnis modern dengan kualitas terbaik.
+            Kami menawarkan berbagai produk plastik yang dirancang untuk memenuhi 
+            kebutuhan rumah tangga dan bisnis dengan kualitas terbaik.
           </p>
           <div className="grid grid-2">
             {products.map((product) => (

@@ -31,7 +31,7 @@
 
 .logo i {
   margin-right: 0.5rem;
-  color: #2563eb;
+  color: #e91e63;
 }
 
 .navbar-menu {
@@ -50,7 +50,7 @@
 
 .nav-link:hover,
 .nav-link.active {
-  color: #2563eb;
+  color: #e91e63;
 }
 
 .nav-link.active::after {
@@ -60,7 +60,7 @@
   left: 0;
   right: 0;
   height: 2px;
-  background: #2563eb;
+  background: #e91e63;
 }
 
 .navbar-toggle {

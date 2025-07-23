@@ -7,10 +7,10 @@ const Home = () => {
       {/* Hero Section */}
       <section className="hero">
         <div className="container">
-          <h1>Selamat Datang di Company Profile</h1>
+          <h1>Selamat Datang di PlastikMart</h1>
           <p>
-            Kami adalah perusahaan terkemuka yang berkomitmen untuk memberikan 
-            layanan terbaik dan produk berkualitas tinggi kepada pelanggan kami.
+            Distributor dan retail plastik terpercaya dengan berbagai produk plastik 
+            berkualitas tinggi untuk kebutuhan rumah tangga dan bisnis Anda.
           </p>
           <div className="hero-buttons">
             <Link to="/products" className="btn">
@@ -26,33 +26,33 @@ const Home = () => {
       {/* Features Section */}
       <section className="section features">
         <div className="container">
-          <h2 className="section-title">Mengapa Memilih Kami</h2>
+          <h2 className="section-title">Mengapa Memilih PlastikMart</h2>
           <p className="section-subtitle">
-            Kami menawarkan solusi terbaik dengan kualitas yang tidak diragukan
+            Kami menawarkan produk plastik berkualitas dengan harga terbaik
           </p>
           <div className="grid grid-3">
             <div className="feature-card">
               <i className="fas fa-award"></i>
-              <h3>Berkualitas</h3>
+              <h3>Produk Berkualitas</h3>
               <p>
-                Produk kami dibuat dengan standar kualitas tertinggi dan 
-                menggunakan bahan baku terbaik untuk memastikan kepuasan pelanggan.
+                Semua produk plastik kami dipilih dengan standar kualitas tertinggi 
+                dan menggunakan bahan baku premium untuk memastikan keamanan dan ketahanan.
               </p>
             </div>
             <div className="feature-card">
-              <i className="fas fa-clock"></i>
-              <h3>Tepat Waktu</h3>
+              <i className="fas fa-truck"></i>
+              <h3>Pengiriman Cepat</h3>
               <p>
-                Kami berkomitmen untuk menyelesaikan setiap proyek tepat waktu 
-                tanpa mengorbankan kualitas produk dan layanan.
+                Layanan pengiriman cepat ke seluruh Indonesia dengan jaminan 
+                produk sampai dalam kondisi baik dan tepat waktu.
               </p>
             </div>
             <div className="feature-card">
-              <i className="fas fa-users"></i>
-              <h3>Tim Profesional</h3>
+              <i className="fas fa-tags"></i>
+              <h3>Harga Terbaik</h3>
               <p>
-                Didukung oleh tim yang berpengalaman dan profesional dalam 
-                memberikan solusi terbaik untuk kebutuhan bisnis Anda.
+                Kami menawarkan harga kompetitif dengan diskon menarik 
+                untuk pembelian dalam jumlah besar dan pelanggan setia.
               </p>
             </div>
           </div>
@@ -64,24 +64,24 @@ const Home = () => {
         <div className="container">
           <div className="about-content">
             <div className="about-text">
-              <h2>Tentang Kami</h2>
+              <h2>Tentang PlastikMart</h2>
               <p>
-                Company Profile adalah perusahaan yang telah berpengalaman dalam 
-                industri selama lebih dari 10 tahun. Kami berkomitmen untuk 
-                memberikan layanan terbaik dan produk berkualitas tinggi kepada 
-                pelanggan kami.
+                PlastikMart adalah distributor dan retail plastik terpercaya yang telah 
+                berpengalaman dalam industri plastik selama lebih dari 8 tahun. Kami 
+                berkomitmen untuk menyediakan produk plastik berkualitas tinggi dengan 
+                harga terbaik untuk kebutuhan rumah tangga dan bisnis.
               </p>
               <p>
-                Dengan tim yang berpengalaman dan teknologi terkini, kami siap 
-                membantu Anda mencapai tujuan bisnis dengan solusi yang tepat 
-                dan efisien.
+                Dengan jaringan supplier yang luas dan tim yang berpengalaman, kami 
+                siap memenuhi kebutuhan plastik Anda dengan berbagai pilihan produk 
+                yang aman, berkualitas, dan ramah lingkungan.
               </p>
               <Link to="/profile" className="btn">
                 Pelajari Lebih Lanjut
               </Link>
             </div>
             <div className="about-image">
-              <i className="fas fa-building"></i>
+              <i className="fas fa-shopping-bag"></i>
             </div>
           </div>
         </div>
@@ -90,20 +90,20 @@ const Home = () => {
       {/* Products Preview */}
       <section className="section">
         <div className="container">
-          <h2 className="section-title">Produk Unggulan Kami</h2>
+          <h2 className="section-title">Produk Plastik Unggulan</h2>
           <p className="section-subtitle">
-            Temukan produk-produk terbaik kami yang telah dipercaya oleh ribuan pelanggan
+            Temukan berbagai produk plastik berkualitas yang telah dipercaya oleh ribuan pelanggan
           </p>
           <div className="grid grid-3">
             <div className="product-card">
               <div className="product-image">
-                <i className="fas fa-cube"></i>
+                <i className="fas fa-box"></i>
               </div>
               <div className="product-content">
-                <h3>Produk A</h3>
+                <h3>Wadah Plastik</h3>
                 <p>
-                  Produk unggulan kami yang telah terbukti kualitasnya dan 
-                  banyak digunakan oleh pelanggan setia kami.
+                  Berbagai jenis wadah plastik berkualitas untuk penyimpanan 
+                  makanan, barang, dan kebutuhan rumah tangga lainnya.
                 </p>
                 <Link to="/products" className="btn">
                   Lihat Detail
@@ -112,13 +112,13 @@ const Home = () => {
             </div>
             <div className="product-card">
               <div className="product-image">
-                <i className="fas fa-cogs"></i>
+                <i className="fas fa-shopping-bag"></i>
               </div>
               <div className="product-content">
-                <h3>Produk B</h3>
+                <h3>Kantong Plastik</h3>
                 <p>
-                  Solusi inovatif yang dirancang khusus untuk memenuhi 
-                  kebutuhan bisnis modern dengan teknologi terkini.
+                  Kantong plastik berbagai ukuran dan ketebalan untuk 
+                  kebutuhan belanja, sampah, dan kemasan.
                 </p>
                 <Link to="/products" className="btn">
                   Lihat Detail
@@ -127,13 +127,13 @@ const Home = () => {
             </div>
             <div className="product-card">
               <div className="product-image">
-                <i className="fas fa-tools"></i>
+                <i className="fas fa-utensils"></i>
               </div>
               <div className="product-content">
-                <h3>Produk C</h3>
+                <h3>Peralatan Dapur</h3>
                 <p>
-                  Produk yang mengutamakan efisiensi dan efektivitas dalam 
-                  membantu meningkatkan produktivitas bisnis Anda.
+                  Peralatan dapur plastik berkualitas untuk kebutuhan 
+                  memasak, menyimpan, dan menyajikan makanan.
                 </p>
                 <Link to="/products" className="btn">
                   Lihat Detail
@@ -148,10 +148,10 @@ const Home = () => {
       <section className="section" style={{ background: '#f8fafc' }}>
         <div className="container">
           <div style={{ textAlign: 'center' }}>
-            <h2 className="section-title">Siap Memulai Kerjasama?</h2>
+            <h2 className="section-title">Siap Berbelanja Plastik?</h2>
             <p className="section-subtitle">
               Hubungi kami sekarang untuk mendapatkan penawaran terbaik dan 
-              konsultasi gratis dari tim profesional kami.
+              konsultasi produk plastik dari tim kami.
             </p>
             <div className="hero-buttons">
               <Link to="/contacts" className="btn">
