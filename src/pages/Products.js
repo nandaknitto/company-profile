@@ -95,30 +95,30 @@ const Products = () => {
       {/* Product Categories */}
       <section className="section features">
         <div className="container">
-          <h2 className="section-title">Kategori Produk</h2>
+          <h2 className="section-title">Kategori Produk Plastik</h2>
           <div className="grid grid-3">
             <div className="feature-card">
-              <i className="fas fa-laptop"></i>
-              <h3>Software Solutions</h3>
+              <i className="fas fa-box"></i>
+              <h3>Wadah & Penyimpanan</h3>
               <p>
-                Berbagai solusi perangkat lunak yang dirancang untuk 
-                meningkatkan efisiensi bisnis Anda.
+                Berbagai jenis wadah plastik untuk penyimpanan makanan, 
+                barang, dan kebutuhan rumah tangga lainnya.
               </p>
             </div>
             <div className="feature-card">
-              <i className="fas fa-mobile-alt"></i>
-              <h3>Mobile Applications</h3>
+              <i className="fas fa-shopping-bag"></i>
+              <h3>Kantong & Kemasan</h3>
               <p>
-                Aplikasi mobile yang responsif dan user-friendly untuk 
-                memenuhi kebutuhan bisnis modern.
+                Kantong plastik berbagai ukuran dan ketebalan untuk 
+                belanja, sampah, dan kemasan produk.
               </p>
             </div>
             <div className="feature-card">
-              <i className="fas fa-cloud"></i>
-              <h3>Cloud Services</h3>
+              <i className="fas fa-utensils"></i>
+              <h3>Peralatan Dapur</h3>
               <p>
-                Layanan cloud yang aman dan terpercaya untuk menyimpan 
-                dan mengelola data bisnis Anda.
+                Peralatan dapur plastik berkualitas untuk memasak, 
+                menyimpan, dan menyajikan makanan.
               </p>
             </div>
           </div>
@@ -128,38 +128,38 @@ const Products = () => {
       {/* Why Choose Our Products */}
       <section className="section">
         <div className="container">
-          <h2 className="section-title">Mengapa Memilih Produk Kami</h2>
+          <h2 className="section-title">Mengapa Memilih Produk PlastikMart</h2>
           <div className="grid grid-4">
             <div className="feature-card">
               <i className="fas fa-award"></i>
-              <h3>Kualitas Terjamin</h3>
+              <h3>Kualitas Premium</h3>
               <p>
-                Setiap produk kami melalui proses pengujian ketat untuk 
-                memastikan kualitas terbaik.
+                Semua produk plastik kami dipilih dengan standar kualitas tertinggi 
+                dan menggunakan bahan baku premium untuk keamanan dan ketahanan.
               </p>
             </div>
             <div className="feature-card">
-              <i className="fas fa-headset"></i>
-              <h3>Support 24/7</h3>
+              <i className="fas fa-truck"></i>
+              <h3>Pengiriman Cepat</h3>
               <p>
-                Tim support kami siap membantu Anda kapan saja dengan 
-                layanan yang responsif dan profesional.
+                Layanan pengiriman cepat ke seluruh Indonesia dengan jaminan 
+                produk sampai dalam kondisi baik dan tepat waktu.
               </p>
             </div>
             <div className="feature-card">
-              <i className="fas fa-sync"></i>
-              <h3>Update Berkala</h3>
+              <i className="fas fa-tags"></i>
+              <h3>Harga Terjangkau</h3>
               <p>
-                Produk kami terus diperbarui dengan fitur-fitur baru 
-                dan perbaikan performa.
+                Kami menawarkan harga kompetitif dengan diskon menarik 
+                untuk pembelian dalam jumlah besar dan pelanggan setia.
               </p>
             </div>
             <div className="feature-card">
-              <i className="fas fa-shield-alt"></i>
-              <h3>Keamanan Tinggi</h3>
+              <i className="fas fa-leaf"></i>
+              <h3>Ramah Lingkungan</h3>
               <p>
-                Mengutamakan keamanan data dan privasi pengguna dalam 
-                setiap produk yang kami kembangkan.
+                Produk plastik kami dipilih yang ramah lingkungan dan 
+                dapat didaur ulang untuk mendukung kelestarian alam.
               </p>
             </div>
           </div>
@@ -170,10 +170,10 @@ const Products = () => {
       <section className="section" style={{ background: '#f8fafc' }}>
         <div className="container">
           <div style={{ textAlign: 'center' }}>
-            <h2 className="section-title">Siap Menggunakan Produk Kami?</h2>
+            <h2 className="section-title">Siap Berbelanja Produk Plastik?</h2>
             <p className="section-subtitle">
-              Hubungi tim sales kami untuk mendapatkan demo dan penawaran 
-              terbaik sesuai kebutuhan bisnis Anda.
+              Hubungi tim sales kami untuk mendapatkan katalog produk dan penawaran 
+              terbaik sesuai kebutuhan rumah tangga dan bisnis Anda.
             </p>
             <button className="btn">Hubungi Sales</button>
           </div>
